@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/src/main.ts" defer></script>
+    <style>
+      .logo.vite:hover {
+        filter: drop-shadow(0 0 2em #747bff);
+      }
+
+      .logo.typescript:hover {
+        filter: drop-shadow(0 0 2em #2d79c7);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container" id="todo-container">
+      
+      <div class="header">
+        <h3>Todo List</h3>
+      </div>
+      <div class="header-day">
+        <h4>Today</h4>
+      </div>
+      
+      <ul class="items-container" id="items-container">
+        
+      </ul>
+      
+      <button class="plus-button" id="plus-button">+</button>
+      
+      
+    
+      <!-- <form class="row" id="greet-form">
+        <input id="greet-input" placeholder="Enter a name..." />
+        <button type="submit">Greet</button>
+      </form> -->
+      <!-- <p id="greet-msg"></p> -->
+    </div>
+    <div class="modal" id="modal"></div>
+  </body>
+</html>
